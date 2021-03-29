@@ -1,0 +1,411 @@
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 60%;
+    height: 85%;
+    opacity: 0.7;
+}
+.person:hover {
+    border-color: #ffb84d;
+}
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+    background: #151414;
+    position: relative;
+}
+.footer-cta {
+    border-bottom: 1px solid #373636;
+}
+.single-cta i {
+    color: #ff5e14;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+}
+.cta-text {
+    padding-left: 15px;
+    display: inline-block;
+}
+.cta-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.cta-text span {
+    color: #757575;
+    font-size: 15px;
+}
+.footer-content {
+    position: relative;
+    z-index: 2;
+}
+.footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.footer-logo {
+    margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px;
+}
+.footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+.footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+}
+.facebook-bg{
+    background: #3B5998;
+}
+.twitter-bg{
+    background: #55ACEE;
+}
+.google-bg{
+    background: #DD4B39;
+}
+.footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+.footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: #ff5e14;
+}
+.footer-widget ul li {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+    color: #ff5e14;
+}
+.footer-widget ul li a {
+    color: #878787;
+    text-transform: capitalize;
+}
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+}
+.subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+}
+.copyright-area{
+    background: #202020;
+    padding: 25px 0;
+}
+.copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+}
+.copyright-text p a{
+    color: #ff5e14;
+}
+.footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-menu li:hover a{
+    color: #ff5e14;
+}
+.footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+}
+
+body {
+    Background-image: url(https://cdnb.artstation.com/p/assets/images/images/003/704/285/large/dusica-neskovic-muzejdanfinal.jpg?1476637309);
+}
+
+h1, h2, h3, h4, h5, h6 {
+}
+section {
+    padding: 60px 0;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-heading h2 {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.site-heading h2 span {
+    color: #ff5a6e;
+}
+
+.site-heading h4 {
+    display: inline-block;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: capitalize;
+    z-index: 1;
+}
+
+.site-heading h4::before {
+    background: #ff5a6e none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin-left: -25px;
+    position: absolute;
+    width: 50px;
+}
+
+.site-heading h2 span {
+    color: #ff5a6e;
+}
+
+.site-heading {
+    margin-bottom: 60px;
+    overflow: hidden;
+    margin-top: -5px;
+}
+
+.team-area .single-item {
+    margin-bottom: 30px;
+}
+
+.team-area .item .thumb {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.team-area .item .thumb::after {
+    background: #232323 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    width: 100%;
+}
+
+.team-area .team-items .item:hover .thumb::after {
+    opacity: 0.7;
+}
+
+.team-area .item .thumb .overlay {
+    top: -100%;
+    left: 0;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+    width: 100%;
+    z-index: 1;
+}
+
+.team-area .item:hover .thumb .overlay {
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+}
+
+.team-area .item .thumb .overlay p {
+    color: #ffffff;
+}
+
+.team-area .item .thumb .overlay h4 {
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.team-area .item .thumb img {
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
+}
+
+.team-area .item:hover .thumb img {
+    opacity: .6;
+}
+
+.team-area .item .thumb .social li {
+    display: inline-block;
+}
+
+.team-area .item .thumb .social li a {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 2px;
+    text-align: center;
+    width: 40px;
+}
+
+.team-area .info {
+    background: #ffffff none repeat scroll 0 0;
+    -moz-box-shadow: 0 0 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    -o-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    padding: 40px 20px 20px;
+    position: relative;
+    text-align: center;
+    z-index: 9;
+}
+
+.team-area .info .message {
+    height: 50px;
+    line-height: 40px;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 50px;
+}
+
+.team-area .info .message a {
+    background: #fff none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -moz-box-shadow: 0 0 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    -o-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    box-sizing: border-box;
+    color: #ff5a6e;
+    display: inline-block;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+}
+
+.team-area .info .message a i {
+    font-weight: 500;
+}
+
+.team-area .info h4 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+.team-area .info span {
+    color: #ff5a6e;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.team-area .social li.twitter a {
+    background-color: #00b6f1;
+}
+
+.team-area .social li.pinterest a {
+    background-color: #bd081c;
+}
+
+.team-area .social li.facebook a {
+    background-color: #3b5998;
+}
+
+.team-area .social li.google-plus a {
+    background-color: #df4a32;
+}
+
+.team-area .social li.vimeo a {
+    background-color: #1ab7ea;
+}
+
+.team-area .social li.instagram a {
+    background-color: #cd486b;
+}
+
+@media screen and (min-width: 1200px) {
+    .ring {
+        height: auto;
+        width: 80%;
+    }
+}
